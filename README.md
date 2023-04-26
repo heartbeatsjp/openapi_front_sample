@@ -10,12 +10,12 @@ Next.jsを用いて実装しています。
 
 ## コンテナの起動
 
-devcontainerを利用しています。VSCodeよりdevcontainerを起動してください。
+devcontainerを利用しています。VS Codeよりdevcontainerを起動してください。
 
 ## OpenAPI定義の生成
-本サンプルプログラムでは[サーバーのサンプル](https://todo)から生成した定義ファイルを`./openapi.json`に配置しているため、生成不要です。
+本サンプルプログラムでは[サーバーのサンプル](https://github.com/heartbeatsjp/openapi_server_sample)から生成した定義ファイルを`./openapi.json`に配置しているため、生成不要です。
 
-サーバーのOpenAPI定義に変更が発生した場合は、[サーバーのサンプル](https://todo)の手順に従い定義を再生成し`./openapi.json`の内容を更新してください。
+サーバーのOpenAPI定義に変更が発生した場合は、[サーバーのサンプル](https://github.com/heartbeatsjp/openapi_server_sample)の手順に従い定義を再生成し`./openapi.json`の内容を更新してください。
 
 ## OpenAPIクライアントの生成
 
