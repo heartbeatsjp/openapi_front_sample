@@ -33,7 +33,9 @@ export default function Home() {
   return (
     <>
       <main>
+        <h1>openapi_front_sample</h1>
         <div>{JSON.stringify(data)}</div>
+        price: <input value={JSON.stringify(data?.price)} />
       </main>
     </>
   );
